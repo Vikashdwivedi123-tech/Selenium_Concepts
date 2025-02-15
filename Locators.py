@@ -14,7 +14,7 @@ driver.find_element(By.ID, "exampleInputPassword1").send_keys("Vikash@123")
 driver.find_element(By.ID, "exampleCheck1").click()
 
 # If you want to create Xpath for any element then syntax will be like this
-# Xpath-  //tagname[@attribut = 'value'] ->Ex: input[@type='submit']
+# Xpath-  //tagname[@attribute = 'value'] ->Ex: input[@type='submit']
 
 driver.find_element(By.XPATH, "//input[@type='submit']").click()
 message = driver.find_element(By.CLASS_NAME, "alert-success").text
